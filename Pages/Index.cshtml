@@ -1,13 +1,24 @@
 ﻿@page
 @model IndexModel
 
-<div class="text-center">
-    <h4>Getting started with <a href="https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor">Blazor</a></h4>
-
+<div class="container">
     <article>
+        <h4>Getting started with <a href="https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor">Blazor</a></h4>
         <h6>Blazor Server:</h6>
         <code>dotnet new blazorserver</code>
         <h6>Blazor WebAssembly:</h6>
         <code>dotnet new blazorwasm</code>
+    </article>
+    <article>
+        <h4>IHostedService vs BackgroundService</h4>
+        <h6>IHostedService:</h6>
+        <code>public Task StartAsync(CancellationToken cancellationToken)</code><br/>
+        <code>public Task StopAsync(CancellationToken cancellationToken)</code>
+        <p></p>
+        <h6>BackgroundService:</h6>
+        <code>protected override async Task ExecuteAsync(CancellationToken cancellationToken)</code>
+    </article>
+    <article>
+        <h4>A Penguin Said That Nobody Drinks Pepsi</h4>
     </article>
 </div>
