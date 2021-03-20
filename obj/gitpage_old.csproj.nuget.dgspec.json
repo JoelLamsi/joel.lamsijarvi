@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\GitHub\\gitpage_old\\gitpage_old.csproj": {}
+    "E:\\GitHub\\gitpage_old\\gitpage_old.csproj": {}
   },
   "projects": {
-    "e:\\GitHub\\gitpage_old\\gitpage_old.csproj": {
+    "E:\\GitHub\\gitpage_old\\gitpage_old.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\GitHub\\gitpage_old\\gitpage_old.csproj",
+        "projectUniqueName": "E:\\GitHub\\gitpage_old\\gitpage_old.csproj",
         "projectName": "gitpage_old",
-        "projectPath": "e:\\GitHub\\gitpage_old\\gitpage_old.csproj",
+        "projectPath": "E:\\GitHub\\gitpage_old\\gitpage_old.csproj",
         "packagesPath": "C:\\Users\\joell\\.nuget\\packages\\",
-        "outputPath": "e:\\GitHub\\gitpage_old\\obj\\",
+        "outputPath": "E:\\GitHub\\gitpage_old\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
